@@ -1,6 +1,7 @@
 package com.milalaveo.shapeforge.domain.validator;
 
 import com.milalaveo.shapeforge.domain.model.Point;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

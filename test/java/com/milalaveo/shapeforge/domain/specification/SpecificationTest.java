@@ -1,6 +1,6 @@
 package com.milalaveo.shapeforge.domain.specification;
 
-import com.milalaveo.shapeforge.domain.model.Cube;
+import com.milalaveo.shapeforge.domain.model.impl.Cube;
 import com.milalaveo.shapeforge.domain.model.Point;
 import com.milalaveo.shapeforge.infrastructure.repository.CubeRepository;
 import com.milalaveo.shapeforge.infrastructure.warehouse.Warehouse;

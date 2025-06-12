@@ -1,14 +1,16 @@
 package com.milalaveo.shapeforge.domain.service;
 
 import com.milalaveo.shapeforge.domain.model.Point;
-import com.milalaveo.shapeforge.domain.model.Cube;
+import com.milalaveo.shapeforge.domain.model.impl.Cube;
+import com.milalaveo.shapeforge.domain.service.CubeService;
+import com.milalaveo.shapeforge.domain.service.impl.CubeServiceImpl;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CubeServiceTest {
 
-    private final CubeService service = new CubeService();
+    private final CubeService service = new CubeServiceImpl();
 
     private Cube buildUnitCube() {
         return new Cube(42L, new Point[]{
